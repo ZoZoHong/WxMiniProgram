@@ -1,0 +1,14 @@
+.led-container .ledicon {
+  margin: 50rpx auto;
+  text-align: center;
+  align-items: center;
+}
+.led-container .ledtext {
+  display: flex;
+}
+.led-container .ledtext .text {
+  flex: 3;
+}
+.led-container .ledtext .input {
+  flex: 2;
+}

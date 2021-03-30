@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mqtt/index",
+    "pages/my/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "ZoZo",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "red",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "设备",
+        "iconPath": "icons/desktop.png",
+        "selectedIconPath": "icons/desktop.png"
+      },
+      {
+        "pagePath": "pages/mqtt/index",
+        "text": "信息",
+        "iconPath": "icons/coding.png",
+        "selectedIconPath": "icons/coding.png"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我的",
+        "iconPath": "icons/customer.png",
+        "selectedIconPath": "icons/customer.png"
+      }
+    ]
+  },
+  
+  "sitemapLocation": "sitemap.json"
+}

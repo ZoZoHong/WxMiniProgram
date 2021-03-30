@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="led-container">
+    <view class="ledicon">
+        <view wx:if="{{Led.buttonflag===true}}" class="iconfont icon-ledon"></view>
+        <view wx:else class="iconfont icon-ledoff"></view>
+        <button type="default" size="mini" bindtap="LedControl">{{Led.status}}</button>
+    </view>
+    <view class="ledtext">
+        <text>当前亮度:</text>
+        <input type="number" value="{{Led.value}}" />
+    </view>
+</view>
